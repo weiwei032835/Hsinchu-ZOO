@@ -1,0 +1,176 @@
+
+/******************** global.css **************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); 
+*{ font-family:"Noto Sans TC","微軟正黑體","Microsoft JhengHei","sans-serif"; }
+*,*::before,*::after{ margin:0px; padding:0px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;  }
+.clearfix:after{ content:""; display:block; height:0; clear:both; visibility:hidden; }
+body{ }
+body *{ line-height:1.5;letter-spacing: 2;}
+h1{ padding:10px; }
+h2{ font-size:22px; color:#0fa36c; }
+h3{ }
+h4{ color:#707780; }
+h5{ }
+h6{ }
+
+/*414px  ======== */
+@media only screen and (max-width:414px){
+	h2{ font-size:18px;}
+}
+
+em{ font-size:16px; font-style:normal; }
+p{ line-height:2; color:#707780; font-size:15px; }
+ol,ul{ list-style:none; }        
+a:link,a:visited{ color:#707780; text-decoration:none; }
+a:hover,a:active{ color:yellowgreen; text-decoration:underline; }
+.current{ color:#FF9B2F; text-decoration:none;}
+
+.btn{ height:30px; line-height:15px; padding:6px 25px; background-color:mediumseagreen; 
+	color:white; font-size:16px; cursor:pointer; border-radius:15px; border:0px solid blue; transition-duration:0.4s; }
+h3.title.center{ text-align: center; margin-bottom: 80px; border:0px solid darkred; }
+
+.btn:hover{ background-color:teal; }
+.btn.warning{ background:gold; color:white; }
+.btn.warning:hover{ background-color:orange; }
+.btn.error{ background:darkred; color:yellow; }
+.btn.error:hover{ background-color:crimson; }
+.btn.prev { color: mediumseagreen; background:#fff; font-size: 25px; height:20px; padding:0px 0px; margin-bottom: 20px; border:0-px solid gold; }
+
+/*滑鼠游標*/
+.cursor{ width: 0.7rem; height: 0.7rem;  background: mediumseagreen; border-radius: 50%; position: absolute; transform: translate(-50%,-50%); 
+	pointer-events:none;transition-property:left,top,transform,opacity; 
+	transition-duration:.15s,.15s,.3s,.3s; transition-timing-function:ease; z-index:99999;}
+.cursor.active{ width: 2rem; height: 2rem; opacity: .7; transform: scale(1);};
+
+/* loader 預載動畫========= */
+.queryloader__overlay{ background:gold; z-index:50!important; background:rgba(42, 222, 135, 0.8)}/*降低z-index層*/
+.queryloader__overlay__percentage{ display:none!important;} /*隱藏百分比數字*/
+
+.gif{ width:120px; height:120px;background:url(../images/loader.gif) no-repeat; background-size: cover; 
+	position:fixed; left:50%; top:50%; transform: translate(-50%, -50%);z-index:99999999;}
+
+/*百分比*/
+.gif .percent{ display:block; width:200px; height:50px; position:absolute; font-size:20px; font-family:"Noto Serif TC",serif;
+	 text-align:center; line-height:50px; transform: translate(30%, 40%); color:rgb(255, 255, 255);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

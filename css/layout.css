@@ -1,0 +1,107 @@
+/******************** layout.css **************************/
+/* wrapper */
+.wrapper{ width:100%; margin:0 auto;}
+
+/*container*/
+.container{ width:100%; margin:0 auto; position:relative;  background:#fff;}
+/*768px*/
+@media only screen and (max-width:768px){
+	.container{padding: 10px;}
+}
+
+/*container 背景插圖*/
+.grass_1{width:10%; position:absolute; right:0; top:40%; z-index:1; }
+.grass_2{width:10%; position:absolute; left:0; top:30%; transform: rotate(-180deg); z-index:1;}
+
+/*768px*/
+@media only screen and (max-width:768px){
+	.grass_2{ display:none;}
+}												
+
+/*header ================ */
+.headerbox{ background: #eaecf2; margin-bottom: 30px; border:0px solid blue; }
+.header{ max-width: 930px; height:90px; margin: 0 auto; position: relative; border:0px solid green;}
+
+.header .nav_pc{ display: flex;}
+.header .nav_pc ul{ height:100px; display:flex; flex: 1; width:90%; 
+flex-wrap:wrap; justify-content:space-between; align-content: center; text-align: center; border:0px solid red; }
+.header .nav_pc ul li{ width:100px; border:0px solid #ccc; }
+
+/*社群icon*/
+.menu{ display: flex; align-items: center; border:0px solid orange; }
+.menu a{ border:0px solid gold; }
+.menu a i{ width:44px; height:44px; line-height: 44px; text-align: center; margin-left: 5px; font-size: 24px; }
+
+/*開關按鈕*/
+.btn_nav_m_open,.btn_nav_m_close{ width:40px; height:40px; line-height:30px; text-align: center; background-color:mediumseagreen; 
+color:white; font-size:20px; cursor:pointer; border-radius:50px; border:0px solid blue; transition-duration:0.4s; }
+button:hover.btn_nav_m_open,button:hover.btn_nav_m_close{ background-color:teal; }
+
+
+/*桌機版_LOGO ================ */
+.header h1.logo_pc{ width:160px; background: url("../images/logo_pc.png") no-repeat left center /150px auto;
+ position:absolute; text-indent: -9999px; transform: translate(-50%, 32%); left: 48%;
+ top:10px; border:0px solid blue; }
+
+.header h1.logo_pc a{ display: block;}
+.header .nav_m{ display: none;}
+
+/*開關按鈕*/
+.btn_nav_m_open{ display: none; position: fixed; right:10px; top: 10px; z-index:999;border:0px solid red;  }/*電腦版選單初始隱藏*/
+
+
+/*桌機版選單_nav_m ================ */
+/*930px*/
+@media only screen and (max-width:930px){
+	.header .btn_nav_m_open{ display: block;}
+	.header .nav_m{ display: block;}
+}											
+
+/*開關按鈕 ============================*/
+.btn_nav_m_close{ position: absolute; right:11px; top:8px;border:0px solid blue;  }	
+
+/*手機版選單_nav_m  ============================ */	
+.nav_m{ display: block; width:100%; height:100vh; position: fixed; right:-100%;
+transition: .3s ; background:rgba(243, 243, 243, 1); border-radius: 0px 0 0 3000px;}
+
+.nav_m h1.logo_m{ width:46%; margin-top: 75px; transform:translate(50%, 0%); margin-bottom: 10px;
+background: url("../images/logo_pc.png") no-repeat center center /150px auto; text-indent: -9999px; 
+border:0px solid orange; }
+
+/*選單 ============================*/
+.nav_m .inner{ width:60%; transform:translate(30%, 0%); border:0px solid blue;}
+.nav_m .inner ul li{ width:100%; height:50px; line-height: 50px; display:flex; flex-direction:column; justify-content:center;
+align-items:center; text-align: center; letter-spacing: 2px; border:0px solid green; }
+.nav_m .inner .menu{ width:100%; justify-content: center; border:0px solid gold; }
+
+/*打開選單  ============================*/
+.header.active .nav_m{ right:0%; z-index:998; }		
+.header.active .btn_nav_m_open{display: none;}
+
+/*930px*/
+@media only screen and (max-width:930px){
+	.header .nav_pc{ display:none;}
+}																																				
+
+
+/* footer */
+.footer{ padding:10px; background:#eaecf2; border:0px solid pink;}
+.footer ul{  width:100%; max-width:700px; padding-left: 12%; margin: 15px auto 10px auto;
+ background:url("../images/logo_footer.png") no-repeat left top/20% auto; border:0px solid green;}
+.footer ul li{ border:0px solid olive;}
+.footer address{ width:100%; max-width:800px; margin: 0px auto 10px auto;font-size: 14px; color:#707780;}
+
+/*1150px*/
+@media only screen and (max-width:1150px){
+	.footer ul{ padding-left: 18%;}
+}
+
+/*414px*/
+@media only screen and (max-width:650px){
+	.footer{ border:0px solid orangered; }
+	.footer ul{ padding-left: 0%; padding-top: 110px; background-position: center top; background-size: auto 100px;}
+	.footer p.info{ margin: 5px auto auto auto;}	
+}
+
+
+
