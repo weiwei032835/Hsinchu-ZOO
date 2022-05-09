@@ -355,7 +355,7 @@ z-index:4; border:0px solid gold; color: #707780;}
 
 /*inner*/
 .part_info_1 .inner{ width:100%; max-width:800px; margin: auto; padding-left:16%;
- background:url(/images/part_info.svg) no-repeat left center/25% auto; 
+ background:url(../images/part_info.svg) no-repeat left center/25% auto; 
  display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; 
  border:0px solid blueviolet; }
 .part_info_1 .inner ul{ width:48%; border:0px solid olive; }
@@ -368,25 +368,25 @@ z-index:4; border:0px solid gold; color: #707780;}
 /*768px*/
 @media only screen and (max-width:768px){
 	.part_info_1 .inner ul{width:100%;}
-	.part_info_1 .inner {padding-left:0%; background: url(/images/part_info.svg) no-repeat right bottom/30% auto;}
+	.part_info_1 .inner {padding-left:0%; background: url(../images/part_info.svg) no-repeat right bottom/30% auto;}
 	.part_info_3{background:url("../images/deco-003.png") no-repeat left bottom / auto 10%, url(../images/deco-005.png) no-repeat right bottom/ auto 10%; }
 }
 
 
 /* part_info_2 園長介紹*/
-.part_info_2{ width:100%; height:100%; position:relative; background:url(/images/deco-001.svg) no-repeat right center/13% auto; border:0px solid orange;}
-.part_info_2 ul{ width:100%; height:100%; background:url(/images/deco-004.svg) no-repeat left center/13% auto; text-align:center; padding: 10px; border:5px solid #23b981;} 
+.part_info_2{ width:100%; height:100%; position:relative; background:url(../images/deco-001.svg) no-repeat right center/13% auto; border:0px solid orange;}
+.part_info_2 ul{ width:100%; height:100%; background:url(../images/deco-004.svg) no-repeat left center/13% auto; text-align:center; padding: 10px; border:5px solid #23b981;} 
 .part_info_2 ul li{ color: #23b981;}
 
 /*600px*/
 @media only screen and (max-width:600px){
-.part_info_2{ background:url(/images/deco-001.svg) no-repeat right top/20% auto; }
-.part_info_2 ul{ background:url(/images/deco-004.svg) no-repeat left -5% top/30% auto;}
+.part_info_2{ background:url(../images/deco-001.svg) no-repeat right top/20% auto; }
+.part_info_2 ul{ background:url(../images/deco-004.svg) no-repeat left -5% top/30% auto;}
 }
 
 /* part_info_2 園長介紹 寫法2 ========= */
-.part_info_22{ border:5px solid #23b981;background:url(/images/deco-004.svg) no-repeat left center / auto 100%,
-		url(/images/deco-001.svg) no-repeat right center / auto 100%;}
+.part_info_22{ border:5px solid #23b981;background:url(../images/deco-004.svg) no-repeat left center / auto 100%,
+		url(../images/deco-001.svg) no-repeat right center / auto 100%;}
 .part_info_22 ul{ width:40%; margin: 0 auto; padding: 10px; border:0px solid orange;}
 .part_info_22 ul li{ color: #23b981;}
 
@@ -398,7 +398,7 @@ z-index:4; border:0px solid gold; color: #707780;}
 
 /*414px*/
 @media only screen and (max-width:414px){
-	.part_info_2 ul{ background: url(/images/deco-004.svg) no-repeat left -5% top/21% auto; }
+	.part_info_2 ul{ background: url(../images/deco-004.svg) no-repeat left -5% top/21% auto; }
 	.part_info_22{ background-size: no-repeat right bottom/ 15% auto, 15% auto; }
 	.part_info_22 ul{ width:50%; }
 }
@@ -412,7 +412,7 @@ z-index:4; border:0px solid gold; color: #707780;}
 .gallery_4 .run ul.pager{ width:90%; margin: 0 auto; cursor:pointer; 
 	display:flex; flex-wrap:wrap; justify-content:space-between; align-content:flex-start; border:0px solid purple; }
 .gallery_4 .run ul.pager li { margin-bottom: 20px;}	
-.gallery_4 .run ul.pager li a{ display:block; width:80px; height:120px; background:url("/images/icon_80x120_all.png") no-repeat; text-indent: -9999px; }
+.gallery_4 .run ul.pager li a{ display:block; width:80px; height:120px; background:url("../images/icon_80x120_all.png") no-repeat; text-indent: -9999px; }
 
 /*icon*/
 .gallery_4 .run ul.pager li:nth-child(1) a{ background-position:0px 0px;}	
@@ -550,7 +550,7 @@ body.about{ background-image:url('../images/about.svg'); background-repeat:no-re
 .about_park .piece .info .btn_next:hover { color: #299282;}
 
 /*園內簡介 插圖*/
-figure.animals{ width: 14%; position: absolute; left: 0; position: absolute; left: 10%; bottom: -70%;}
+figure.animals{ width: 14%; position: absolute; left: 0; position: absolute; left: 10%; bottom: -35%;}
 
 /*768px*/
 @media only screen and (max-width:768px){
@@ -596,7 +596,7 @@ ul.card-list_1 li.piece:hover h3{ opacity:1; }
 
 /*動物插圖*/
 figure.animals_2{width: 18%; position: absolute; right:10%; bottom:-8%;}
-figure.animals_3{width: 20%; position: absolute;right:8%; bottom:-85%; }
+figure.animals_3{width: 20%; position: absolute;right:8%; bottom:-75%; }
 
 /*768px*/
 @media only screen and (max-width:768px){
