@@ -355,7 +355,7 @@ z-index:4; border:0px solid gold; color: #707780;}
 
 /*inner*/
 .part_info_1 .inner{ width:100%; max-width:800px; margin: auto; padding-left:16%;
- background:url(../images/part_info.svg) no-repeat left center/25% auto; 
+ background:url("../images/part_info.svg") no-repeat left center/25% auto; 
  display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; 
  border:0px solid blueviolet; }
 .part_info_1 .inner ul{ width:48%; border:0px solid olive; }
